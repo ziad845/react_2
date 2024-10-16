@@ -1,0 +1,15 @@
+
+.active {
+    background-color: #1abc9c;
+    transition: all 0.5s;
+}
+
+
+.navlinks-dir {
+    top: 0;
+}
+
+.drop {
+    height: 230px !important;
+    transition: all 0.5s !important;
+}

@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.star-icon::before , .star-icon::after{
+    content: '';
+    background-color: #fff;
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.star-icon::before {
+    right: 35px;
+}
+
+.star-icon::after {
+    left: 35px;
+}
+
+[data-color = 'black-star']::before, [data-color = 'black-star']::after {
+    background-color: #000 !important;
+}
